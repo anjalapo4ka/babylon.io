@@ -1,0 +1,798 @@
+@media only screen and (min-width : 320px)
+{
+
+}
+
+
+
+@media only screen and (min-width : 1200px)
+{
+
+}
+
+
+
+@media only screen and (max-width: 2200px){
+    .top-banner__main {
+        bottom: 0;
+        -webkit-transform: translateX(-50%);
+        transform: translate(-50%, -10%);
+    }
+    .paradigm-section{
+        padding: 110px 0
+    }
+
+}
+
+
+@media only screen and (max-width: 1800px){
+    .main-title{
+        font-size: 54px;
+        margin-bottom: 50px;
+    }
+    .top-banner__subscribe-block{
+        margin-bottom: 80px;
+    }
+    .timer {
+        padding: 15px 50px;
+    }
+    .top-banner{
+        min-height: 800px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+    .container{
+        width: 100%;
+        padding: 0 50px;
+    }
+    .video-container {
+        width: 860px;
+        height: 510px;
+
+    }
+    .paradigm-left {
+        padding-left: 0;
+        width: 230px;
+    }
+    .paradigm-right{
+        width: calc(100% - 230px);
+        padding-left: 30px;
+        p{
+            padding-right: 0;
+        }
+    }
+    .comparison-table {
+        width: 400px;
+    }
+
+}
+@media only screen and (max-width: 1100px){
+    .video-presentation-list{
+        width: 98%;
+    }
+    .mentioned-slider-block{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    .video-container {
+        width: 768px;
+        height: 472px;
+
+    }
+    .paradigm-section .container{
+        display: block;
+    }
+    .paradigm-left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 85px;
+        img{
+            width: 170px;
+            height: 308px;
+
+        }
+    }
+    .paradigm-right {
+        width: 100%;
+        padding-left: 0;
+    }
+    .paradigm-title{
+        margin-bottom: 60px;
+    }
+
+    .comparison-block{
+        flex-wrap: wrap;
+    }
+
+    .comparison-left{
+        width: 100%;
+        order: 2;
+    }
+
+    .comparison-right{
+        width: 100%;
+        order: 1;
+        margin-bottom: 70px;
+    }
+    .comparison-table {
+        width: 445px;
+        margin: 0 auto;
+    }
+    .comparison-input-block{
+        width: 500px;
+        margin: 0 auto 50px;
+    }
+    .historical-comparison-section{
+        padding-bottom: 65px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    .header .container{
+        padding: 0;
+    }
+    .container{
+        width: 768px;
+        padding: 0 24px;
+    }
+
+    .video-section{
+        .container{
+            padding: 0;
+        }
+    }
+    .header-btns-block{
+        display: none;
+    }
+    .side-menu-wrapper{
+
+        z-index: 999;
+    }
+    .mobile-menu__icon{
+        display: block;
+        width: 44px;
+        height: 44px;
+        border-radius: 4px;
+        border: 3px solid #fff;
+        position: relative;
+    }
+
+    .main-title {
+        font-size: 60px;
+    }
+
+    .top-banner__main{
+        position: static;
+        transform: translate(0);
+        margin-top: 100px;
+        padding-bottom: 90px;
+    }
+    .top-banner {
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .fund-section-bottom{
+        display: none;
+    }
+
+    .video-container{
+        width: 768px;
+        height: 470px;
+    }
+
+    .presentation-title{
+        margin-bottom: 45px;
+
+    }
+
+    .presentation-subtitle{
+        padding-bottom: 60px;
+        margin-bottom: 35px;
+    }
+
+    .video-presentation-item{
+        width: 644px;
+        height: 394px;
+        margin: 0 auto 40px;
+    }
+    .video-presentation-section{
+        padding-bottom: 30px;
+    }
+
+    .feature-list{
+        justify-content: space-between;
+    }
+
+    .feature-item:nth-child(n){
+        width: 44%;
+        margin: 0;
+        padding: 0 24px;
+        margin-bottom: 90px;
+    }
+
+    .features-section{
+        .container{
+            padding: 0;
+        }
+    }
+
+    .smart-contract-block{
+        flex-wrap: wrap;
+    }
+
+    .smart-contract-text{
+        order: 2;
+        padding: 0 38px;
+        width: 100%;
+    }
+
+    .smart-contract-image{
+        background-image: none !important;
+        padding: 0 38px;
+        width: 100%;
+        margin-bottom: 65px;
+        order: 1;
+    }
+    .smart-contract-img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .info-section__title{
+        padding: 0;
+    }
+
+    .perfomance-text.top{
+        shape-outside: none;
+        margin-bottom: 70px;
+    }
+    .perfomance-title-bottom{
+        font-size: 48px;
+    }
+    .perfomanse-section{
+        padding-bottom: 65px;
+        .container{
+            padding: 0;
+        }
+    }
+
+    .perfomance-text, .perfomance-text.top, .perfomance-title-bottom{
+        padding: 0 24px;
+    }
+    .team-section{
+        .container{
+            padding: 0;
+        }
+    }
+
+    .team-list{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .team-item{
+        width: 220px;
+        padding: 0;
+        margin-right: 0;
+        margin-left: calc((100% - 220px*3)/2);
+        &:nth-child(3n+1){
+            margin-left: 0;
+        }
+    }
+
+    .ico-structure-block{
+        display: block;
+        padding: 0;
+    }
+    .ico-structure-left{
+        width: 100%;
+        padding: 0 38px;
+        margin-bottom: 70px;
+    }
+    .ico-structure-right{
+        width: 100%;
+    }
+
+    .ico-structure__top-graph-block{
+        margin-bottom: 30px;
+    }
+    .faq-list {
+        padding: 0 0 0 38px;
+    }
+    .faq-text {
+        padding-top: 30px;
+        padding-right: 100px;
+        padding-bottom: 30px;
+        padding-left: 35px;
+    }
+    .footer{
+        padding-bottom: 100px;
+        .container{
+            display: block;
+        }
+    }
+
+    .footer-left{
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 780px){
+
+    .header .container {
+        padding: 0 20px;
+    }
+
+    .side-menu{
+        padding-right: 20px;
+    }
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .video-container {
+        width: 640px;
+        height: 380px;
+    }
+    .paradigm-left img {
+        width: 125px;
+        height: auto;
+    }
+    .video-presentation-item{
+        width: 640px;
+        height: 380px;
+    }
+    .perfomanse-section .container {
+        padding: 0 20px;
+    }
+    .team-section .container{
+        padding: 0 20px;
+    }
+    .timer {
+        padding: 15px 30px;
+    }
+
+    .timer-block{
+        font-size: 60px;
+    }
+    .subscribe-btn{
+        margin-right: 15px;
+    }
+    .video-section {
+        padding: 55px 0;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .video-container {
+        width: 520px;
+        height: 320px;
+    }
+    .video-presentation-item {
+        width: 520px;
+        height: 320px;
+    }
+    .team-item:nth-child(n){
+        width: 44%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .team-text{
+        max-width: 218px;
+        margin: 0 auto;
+    }
+    .timer-block{
+        margin-left: 15px;
+        &:nth-child(1){
+            margin-left: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .mentioned-slider-arrow.mentioned-slider-prev {
+        left: -60px;
+    }
+    .mentioned-slider-arrow.mentioned-slider-next {
+        right: -60px;
+    }
+    .perfomance-graph-title{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .main-title {
+        font-size: 50px;
+    }
+    .top-banner__subscribe-block{
+        display: block;
+    }
+    .top-banner__input{
+        width: 100%;
+        display: block;
+        max-width: 470px;
+        margin: 0 auto 30px;
+
+    }
+    .subscribe-btn{
+        margin: 0 auto 30px;
+    }
+    .big-btn{
+        width: 280px;
+    }
+    .whitepaper-btn{
+        margin: 0 auto;
+    }
+    .top-banner__subscribe-block {
+        margin-bottom: 30px;
+    }
+    .timer{
+        width: 470px;
+        padding: 10px;
+    }
+    .timer-title{
+        font-size: 36px;
+    }
+    .timer-block {
+        font-size: 50px;
+    }
+
+    .fund-list{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .video-container {
+        width: 470px;
+        height: 290px;
+    }
+    .video-presentation-item {
+        width: 470px;
+        height: 290px;
+    }
+    .features-title {
+        margin-bottom: 50px;
+        font-size: 42px;
+    }
+    .feature-item:nth-child(n){
+        width: 100%;
+    }
+
+    .comparison-left{
+        display: none;
+    }
+
+    .team-slider-arrow{
+        display: block;
+    }
+    .team-slider-block{
+        position: relative;
+    }
+    .team-slider-arrow{
+        position: absolute;
+        z-index: 9;
+        top: 325px;
+        font-size: 36px;
+        color: #9c9c9c;
+        transition: all 0.5s;
+        cursor: pointer;
+        &:hover{
+            color: #000;
+            transition: all 0.5s;
+        }
+    }
+    .team-slider-next{
+        right: 0;
+        transform: translateX(0);
+    }
+    .team-slider-prev{
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .team-item{
+        margin-bottom: 0;
+    }
+
+    .team-section{
+        padding-bottom: 70px;
+    }
+    .paradigm-section, .video-presentation-section, .features-section, .as-mentioned-section, .smart-contract-section, .info-section, .perfomanse-section, .historical-comparison-section, .team-section, .faq-section{
+        padding-top: 40px;
+    }
+    .section-title{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .ico-structure-left{
+        padding: 0;
+    }
+    .ico-strucrure__text-block{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .comparison-mobile-slider-block{
+        display: block;
+        order: 3;
+        margin: 0 auto;
+        .comparison-input-block{
+            width: 270px;
+
+        }
+    }
+
+    .side-menu{
+
+    }
+
+}
+
+
+@media only screen and (max-width: 480px){
+
+    .top-banner__main{
+        margin-top: 30px;
+    }
+
+    .main-title {
+        font-size: 38px;
+        margin-bottom: 15px;
+    }
+
+    .video-container {
+        width: 420px;
+        height: 256px;
+    }
+
+    .big-btn {
+        width: 100%;
+    }
+
+    .top-banner__input{
+        margin-bottom: 10px;
+    }
+    .subscribe-btn{
+        margin-bottom: 10px;
+    }
+
+    .timer-title {
+        font-size: 24px;
+    }
+    .timer-block {
+        font-size: 36px;
+    }
+    .top-banner__timer{
+        margin-bottom: 10px;
+    }
+    .top-banner__main{
+        padding-bottom: 25px;
+    }
+
+    .fund-section-top{
+        padding: 35px 0 5px;
+    }
+    .paradigm-left img {
+        width: 80px;
+        height: 145px;
+    }
+    .paradigm-left{
+        margin-bottom: 40px;
+    }
+    .paradigm-title{
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .paradigm-right p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .paradigm-section{
+        padding-bottom: 40px;
+    }
+    .presentation-title, .info-section__title{
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.25;
+    }
+    .presentation-subtitle{
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+    .video-presentation-block-title{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .video-presentation-item{
+        width: 300px;
+        height: 184px;
+        margin-bottom: 20px;
+    }
+    .features-section .container {
+        padding: 0 10px;
+    }
+    .feature-item:nth-child(n){
+        padding: 0 20px;
+        margin-bottom: 35px;
+    }
+
+    .feature-item-img{
+        margin-bottom: 5px;
+    }
+    .feature-item-title{
+        margin-bottom: 20px;
+    }
+    .as-mentioned-section{
+        padding: 20px 0;
+    }
+
+    .smart-contract-image{
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .smart-contract-text{
+        padding: 0;
+        p{
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+    }
+    .smart-contract-section{
+        padding-bottom: 30px;
+    }
+
+    .info-section__subtitle{
+        font-size: 16px;
+    }
+    .info-section{
+        padding-bottom: 40px;
+    }
+
+    .perfomance-text{
+        font-size: 18px;
+        text-align: center;
+        p{
+            margin-bottom: 20px;
+        }
+    }
+
+    .perfomance-text.top{
+        font-size: 16px;
+        padding: 0 5px;
+        margin-bottom: 25px;
+    }
+    .perfomance-title-bottom{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .perfomance-text{
+        padding: 0;
+    }
+
+    .perfomanse-section{
+        padding-bottom: 20px;
+    }
+
+    .comparison-table{
+        width: 100%;
+    }
+    .faq-section{
+        padding-bottom: 20px;
+    }
+
+    .faq-item-title:before{
+        font-size: 22px;
+    }
+
+    .faq-item-title{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .faq-text{
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-bottom: 15px;
+    }
+    .footer-left{
+        margin-bottom: 25px;
+    }
+    .footer-disclaimer{
+        font-size: 16px;
+    }
+
+    .mentioned-slider-arrow{
+        font-size: 36px;
+    }
+    .mentioned-slider-arrow.mentioned-slider-next{
+        right: -45px;
+    }
+    .mentioned-slider-arrow.mentioned-slider-prev{
+        left: -45px;
+    }
+
+    .perfomance-graph-title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .perfomance-graph-block{
+        padding: 20px 5px 5px 5px;
+    }
+    .perfomance-graph{
+        padding-right: 0;
+    }
+
+    .ico-structure-section {
+        padding-bottom: 10px;
+    }
+    .timer {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .side-top-block{
+        padding-right: 10px;
+    }
+    .side-menu{
+      width: 200px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .container{
+        padding: 0 10px;
+    }
+    .mobile-social-block{
+        padding-right: 0;
+    }
+    .mobile-social-block .social-item{
+        margin-left: 22px;
+    }
+    .mobile-social-block .social-item:nth-child(3n+1){
+        margin-left: 0;
+    }
+    .main-title{
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 4.8px;
+        max-width: 220px;
+    }
+     .video-container {
+        width: 300px;
+        height: 184px;
+    }
+    .section-title{
+        font-size: 24px;
+    }
+    .footer{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .comparison-block .theme-green .back-bar .pointer{
+        width: 55px;
+
+    }
+    .comparison-block .comparison-input-block.investment .slider-container .back-bar .pointer-label{
+        font-size: 18px;
+    }
+    .comparison-block .slider-container .back-bar .pointer-label span{
+        font-size: 17px;
+    }
+}

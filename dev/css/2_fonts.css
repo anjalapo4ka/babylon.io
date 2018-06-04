@@ -1,0 +1,36 @@
+
+@font-face {
+	font-family: 'TrebuchetMS';
+	src: url('../fonts/TrebuchetMS/TrebuchetMS.eot');
+	src: url('../fonts/TrebuchetMS/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/TrebuchetMS/TrebuchetMS.woff') format('woff'),
+		 url('../fonts/TrebuchetMS/TrebuchetMS.ttf') format('truetype'),
+		 url('../fonts/TrebuchetMS/TrebuchetMS.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+@font-face {
+	font-family: 'TrebuchetMS';
+	src: url('../fonts/TrebuchetMS-Bold/TrebuchetMS-Bold.eot');
+	src: url('../fonts/TrebuchetMS-Bold/TrebuchetMS-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/TrebuchetMS-Bold/TrebuchetMS-Bold.woff') format('woff'),
+		 url('../fonts/TrebuchetMS-Bold/TrebuchetMS-Bold.ttf') format('truetype'),
+		 url('../fonts/TrebuchetMS-Bold/TrebuchetMS-Bold.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 600;
+}
+
+
+@font-face {
+	font-family: 'TrebuchetMS';
+	src: url('../fonts/TrebuchetMS-Italic/TrebuchetMS-Italic.eot');
+	src: url('../fonts/TrebuchetMS-Italic/TrebuchetMS-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/TrebuchetMS-Italic/TrebuchetMS-Italic.woff') format('woff'),
+		 url('../fonts/TrebuchetMS-Italic/TrebuchetMS-Italic.ttf') format('truetype'),
+		 url('../fonts/TrebuchetMS-Italic/TrebuchetMS-Italic.svg#FontName') format('svg');
+	font-style: italic;
+	font-weight: 400;
+}
+

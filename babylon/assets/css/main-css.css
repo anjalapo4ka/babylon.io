@@ -1,0 +1,66 @@
+.mentioned-item img{
+	max-width: 100%;
+	max-height: 200px;
+}
+
+.sbc-form{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.sbc-form div, .sbc-form .whitepaper-btn{
+	display: inline-block;
+}
+
+.sbc-form .whitepaper-btn{
+	line-height: 40px;;
+}
+
+.sbc-form form .es_button input{
+	margin-right: 30px;
+    display: block;
+    padding: 11.5px 5px;
+    background-color: #372fb6;
+    transition: all 0.5s;
+    width: 174px;
+    height: 44px;
+    font-family: 'TrebuchetMS';
+    border-radius: 5px;
+    align-items: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-appearance: none;
+    text-align: center;
+}
+
+.sbc-form form .es_button input:hover{
+	background-color: #2d248e;
+	    transition: all 0.5s;
+	    box-shadow: 1px 2px 7px 3px rgba(0, 0, 0, .26);	
+}
+
+.sbc-form form .es_lablebox{
+	display: none;
+}
+
+.sbc-form form .es_textbox{
+	margin-right: 15px;
+	width: 380px;
+}
+
+.sbc-form form .es_textbox input{
+	    border: 1px solid #000;
+    background-color: #fff;
+    height: 44px;
+    padding: 5px 15px;
+    /*margin-right: 15px; */   
+    border-radius: 5px;
+    max-width: 380px;
+    width: 100%;
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+}
